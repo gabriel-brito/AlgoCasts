@@ -15,4 +15,16 @@ function reverseInt(n) {
   return Number(`${sign}${stringified.split('').reverse().join('')}`)
 }
 
+// Lecture Solution
+
+// function reverseInt(n) {
+//   const reversed = n
+//     .toString()
+//     .split('')
+//     .reverse()
+//     .join('')
+
+//   return parseInt(reversed) * Math.sign(n);
+// }
+
 module.exports = reverseInt;
