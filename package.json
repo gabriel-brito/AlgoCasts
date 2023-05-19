@@ -1,0 +1,10 @@
+{
+  "name": "algocasts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
