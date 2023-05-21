@@ -31,18 +31,7 @@ function weave(sourceOne, sourceTwo) {
       result.add(sourceOne.remove())
       result.add(sourceTwo.remove())
   }
-
-  if (sourceOne.peek()) {
-    while(sourceOne.peek()) {
-      result.add(sourceOne.remove())
-    }
-  }
-
-  if (sourceTwo.peek()) {
-    while(sourceTwo.peek()) {
-      result.add(sourceTwo.remove())
-    }
-  }
+  
   
   return result;
 }
